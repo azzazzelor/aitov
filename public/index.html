@@ -1,19 +1,79 @@
-<html>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Express</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/examples/vendors/bootstrap-4.1/css/bootstrap.min.css" rel="stylesheet">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/module.css">
+  <link rel="stylesheet" href="/stylesheets/grid.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/carousel.css">
+  <script type="text/javascript" src="js/script.js" async ></script>
+
+  <script ></script>
 </head>
-
-<body>
-  <header>
-    <div class="panel">
-      <div class="logo"></div>
-      <div>
-        icons
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="row align-items-center">
+          <div class="col-5 col-md-2 col-xl-2">
+            <div class="header__logo"></div>
+          </div>
+          <div class="d-none d-md-block col-md-2 col-xl-2">
+            <a href="" class="header__link">Наши работы</a>
+          </div>
+          <div class="col-2 col-md-2 col-xl-1">
+            <a class="icon">
+              <img class="header_icon" src="./media/icons/instagram.svg" alt="instagram">
+            </a>
+          </div>
+          <div class="col-2 col-md-3 col-xl-2 d-block center">
+            <a class="icon">
+            <img class="header_icon" src="./media/icons/location.svg" alt="">
+            </a>
+            <span class="show-desktop">Киев</span>
+          </div>
+          <div class="col-3 col-md-2 col-xl-1 d-block">
+            <a class="icon">
+              <img class="header_icon" alt="" height="30" src="./media/icons/call.svg" >
+            </a>
+            <span class="show-desktop">8077667766</span>
+          </div>
+          <div class="col-12 col-md-12 col-xl-3">
+            <button class="button button--header" type="button">Заказать звонок</button>
+          </div>
+          </div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="col-12 col-md-7">
+            <p class="h2">Для офиса или дома под заказ. Поможем подобрать изображение</p>
+            <h1>Дизайнерские картины под заказ</h1>
+            <p class="h2">из натурального дерева ручной работы с любым изображением</p>
+            <p> Сосна Дуб Ясень</p>
+            <button class="button button--main">Заказать картину</button>
+            <button class="button button--main">Как мы это делаем?</button>
+          </div>
+          <div class="col-12 col-md-5 photo-wrap">
+            <img  class="main__img" src="./media/img/main.jpg" alt="картины киев">
+          </div>
+        </div>
+      </main>
+      <div class="gallery">
+        <div id=gallery>
+          <figure id=spinner >
+            <img src="./media/img/img2.jpg"alt="">
+            <img src="./media/img/img1.jpg"alt="">
+            <img src="./media/img/img3.jpg"alt="">
+          </figure>
+          <a href=# style="float:left" onclick="galleryspin('-')">?</a>
+          <a href=# style="float:right" onclick="galleryspin('')">?</a>
+        </div>
       </div>
-    </div>
-  </header>
-</body>
+   </div>
 
+  </body>
 </html>

@@ -1,0 +1,88 @@
+body {
+  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mb60 {
+  margin-bottom: 60px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.show-tablet {
+  display: none;
+}
+
+.show-desktop {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.telephone {
+  display: none;
+}
+
+.h2 {
+  font-size: 25px;
+
+}
+
+@media screen and (min-width: 768px){
+  .show-tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .show-desktop {
+    display: block;
+  }
+
+  .telephone {
+    display: block;
+    text-align: center;
+  }
+
+  .header_icon {
+    margin-bottom: 10px;
+  }
+}
